@@ -28,6 +28,7 @@ extension Date {
 
     static func enUS(from value: String) -> Date? {
         let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "en_US_POSIX")
         formatter.dateFormat = "M/d/yyyy h:mm:ss a"
         return formatter.date(from: value)
     }

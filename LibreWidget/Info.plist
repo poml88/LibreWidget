@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>BGTaskSchedulerPermittedIdentifiers</key>
-        <array>
-            <string>sjd.librewidget.fetcher</string>
-        </array>
-        <key>UIAppFonts</key>
-        <array>
-            <string>Brygada1918-Italic-VariableFont_wght.ttf</string>
-        </array>
-        <key>UIBackgroundModes</key>
-        <array>
-            <string>fetch</string>
-        </array>
-    </dict>
+<dict>
+	<key>APP_GROUP_ID</key>
+	<string>${APP_GROUP_ID}</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(APP_VERSION)</string>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>${PRODUCT_BUNDLE_IDENTIFIER}.fetcher</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Brygada1918-Italic-VariableFont_wght.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+	</array>
+</dict>
 </plist>
