@@ -41,6 +41,8 @@ struct GlucoseItem: Decodable {
 
     func isOutdated() -> Bool {
         if let timestamp = Date.enUS(from: timestamp ?? "") {
+            //debugPrint(Date().adding(minutes: -3))
+            //NSLog(Date().adding(minutes: -3))
             return timestamp < Date().adding(minutes: -3)
         }
         return true

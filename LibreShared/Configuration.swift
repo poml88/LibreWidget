@@ -1,7 +1,14 @@
 import Foundation
 
 extension UserDefaults {
-    static let group = UserDefaults(suiteName: "$(APP_GROUP_ID)")!
+    static let group = UserDefaults(suiteName: stringValue(forKey: "APP_GROUP_ID"))!
+    
+    static func stringValue(forKey key: String) -> String {
+        guard let value = Bundle.main.object(forInfoDictionaryKey: key) as? String else {
+            fatalError("Invalid value or undefined key")
+        }
+        return value
+    }
 }
 
 enum Connection: Int {

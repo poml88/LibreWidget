@@ -7,12 +7,35 @@
 		<key>LibreGlucoseWidgetExtension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>LibreWidget.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1AAEBEFB290E7B62001068B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>603799D0E71F49E3B3B68AF8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60379C161ABB33735213163B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60379CA9B446562D3C2F62D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
