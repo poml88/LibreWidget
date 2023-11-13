@@ -19,8 +19,6 @@
 		1AAEBF01290E7B63001068B2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAEBF00290E7B63001068B2 /* SwiftUI.framework */; };
 		1AAEBF04290E7B63001068B2 /* LibreGlucoseWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAEBF03290E7B63001068B2 /* LibreGlucoseWidget.swift */; };
 		1AAEBF07290E7B64001068B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAEBF06290E7B64001068B2 /* Assets.xcassets */; };
-		1AAEBF09290E7B64001068B2 /* LibreGlucoseWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1AAEBF05290E7B63001068B2 /* LibreGlucoseWidget.intentdefinition */; };
-		1AAEBF0A290E7B64001068B2 /* LibreGlucoseWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1AAEBF05290E7B63001068B2 /* LibreGlucoseWidget.intentdefinition */; };
 		1AAEBF0D290E7B64001068B2 /* LibreGlucoseWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1AAEBEFC290E7B62001068B2 /* LibreGlucoseWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1ACD511729114F91000DFEE5 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACD511629114F91000DFEE5 /* Commons.swift */; };
 		1ACD511829114F91000DFEE5 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACD511629114F91000DFEE5 /* Commons.swift */; };
@@ -36,6 +34,8 @@
 		60379D966F99C9E47F8BA842 /* LibreWidgetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60379B56D3AF213B9416423C /* LibreWidgetUITestsLaunchTests.swift */; };
 		60379E81883591F908323F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60379F7810A23AC530DC9850 /* Assets.xcassets */; };
 		7A3F28F12B01887200AC4CBD /* LibreWidgetSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F28F02B01887200AC4CBD /* LibreWidgetSetupView.swift */; };
+		7A8D791B2B02B7960045F9F9 /* LibreGlucoseWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 7A8D791E2B02B7960045F9F9 /* LibreGlucoseWidget.intentdefinition */; };
+		7A8D791C2B02B7960045F9F9 /* LibreGlucoseWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 7A8D791E2B02B7960045F9F9 /* LibreGlucoseWidget.intentdefinition */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,7 +90,6 @@
 		1AAEBEFE290E7B62001068B2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		1AAEBF00290E7B63001068B2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		1AAEBF03290E7B63001068B2 /* LibreGlucoseWidget.swift */ = {isa = PBXFileReference; indentWidth = 1; lastKnownFileType = sourcecode.swift; path = LibreGlucoseWidget.swift; sourceTree = "<group>"; tabWidth = 1; wrapsLines = 1; };
-		1AAEBF05290E7B63001068B2 /* LibreGlucoseWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = LibreGlucoseWidget.intentdefinition; sourceTree = "<group>"; };
 		1AAEBF06290E7B64001068B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AAEBF08290E7B64001068B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ACD511629114F91000DFEE5 /* Commons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commons.swift; sourceTree = "<group>"; };
@@ -108,6 +107,10 @@
 		60379F25CCB4C14E6E90569F /* LibreWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibreWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60379F7810A23AC530DC9850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A3F28F02B01887200AC4CBD /* LibreWidgetSetupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibreWidgetSetupView.swift; sourceTree = "<group>"; };
+		7A8D791F2B02B8020045F9F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/LibreGlucoseWidget.intentdefinition; sourceTree = "<group>"; };
+		7A8D79212B02B8630045F9F9 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/LibreGlucoseWidget.strings; sourceTree = "<group>"; };
+		7A8D79232B02B8650045F9F9 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LibreGlucoseWidget.strings; sourceTree = "<group>"; };
+		7A8D79252B02C30F0045F9F9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7AA71DA22B0156FB0065ABC8 /* LibreWidget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LibreWidget.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,7 +174,7 @@
 			children = (
 				1AA70D4D291067C50072D119 /* GlucoseEntry.swift */,
 				1AAEBF03290E7B63001068B2 /* LibreGlucoseWidget.swift */,
-				1AAEBF05290E7B63001068B2 /* LibreGlucoseWidget.intentdefinition */,
+				7A8D791E2B02B7960045F9F9 /* LibreGlucoseWidget.intentdefinition */,
 				1AAEBF06290E7B64001068B2 /* Assets.xcassets */,
 				1A0CD988290F35B400CADD69 /* LibreGlucoseWidgetExtension.entitlements */,
 				1AAEBF08290E7B64001068B2 /* Info.plist */,
@@ -200,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				7AA71DA22B0156FB0065ABC8 /* LibreWidget.xcconfig */,
+				7A8D79252B02C30F0045F9F9 /* README.md */,
 				1A0CD984290F326700CADD69 /* LibreShared */,
 				60379CCE0DD1760158C56E10 /* LibreWidget */,
 				1AAEBF02290E7B63001068B2 /* LibreGlucoseWidget */,
@@ -410,7 +414,7 @@
 			files = (
 				1ACD511829114F91000DFEE5 /* Commons.swift in Sources */,
 				1AA70D4C291067640072D119 /* LibreViewAPI.swift in Sources */,
-				1AAEBF09290E7B64001068B2 /* LibreGlucoseWidget.intentdefinition in Sources */,
+				7A8D791C2B02B7960045F9F9 /* LibreGlucoseWidget.intentdefinition in Sources */,
 				1AA70D4E291067C50072D119 /* GlucoseEntry.swift in Sources */,
 				1AAEBF04290E7B63001068B2 /* LibreGlucoseWidget.swift in Sources */,
 				1AA70D51291072DC0072D119 /* CommonsUI.swift in Sources */,
@@ -442,7 +446,7 @@
 			files = (
 				1ACD511729114F91000DFEE5 /* Commons.swift in Sources */,
 				1A0CD986290F328E00CADD69 /* Configuration.swift in Sources */,
-				1AAEBF0A290E7B64001068B2 /* LibreGlucoseWidget.intentdefinition in Sources */,
+				7A8D791B2B02B7960045F9F9 /* LibreGlucoseWidget.intentdefinition in Sources */,
 				1AA70D4B291067640072D119 /* LibreViewAPI.swift in Sources */,
 				1AA70D50291072DC0072D119 /* CommonsUI.swift in Sources */,
 				603795AD477D903D6DB02C4C /* LibreWidgetApp.swift in Sources */,
@@ -480,6 +484,16 @@
 				1A43EE842912E89100505558 /* de */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		7A8D791E2B02B7960045F9F9 /* LibreGlucoseWidget.intentdefinition */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A8D791F2B02B8020045F9F9 /* Base */,
+				7A8D79212B02B8630045F9F9 /* English */,
+				7A8D79232B02B8650045F9F9 /* de */,
+			);
+			name = LibreGlucoseWidget.intentdefinition;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

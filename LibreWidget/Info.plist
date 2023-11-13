@@ -4,13 +4,15 @@
 <dict>
 	<key>APP_GROUP_ID</key>
 	<string>${APP_GROUP_ID}</string>
-	<key>CFBundleIdentifier</key>
-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-	<key>CFBundleShortVersionString</key>
-	<string>$(APP_VERSION)</string>
 	<key>BGTaskSchedulerPermittedIdentifiers</key>
 	<array>
 		<string>${PRODUCT_BUNDLE_IDENTIFIER}.fetcher</string>
+	</array>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>ConfigurationIntent</string>
 	</array>
 	<key>UIAppFonts</key>
 	<array>
