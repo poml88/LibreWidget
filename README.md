@@ -1,6 +1,6 @@
 # LibreWidget
 
-** Warning, This project is highly experimental. Please use this app with caution and extreme care. Do not make careless decisions based on software. Do not use this software if you are unsure.
+** Warning, This project is highly experimental. Please use this app with caution and extreme care. Do not make careless decisions based on software. Do not use this software if you are unsure. **
 
 This is a fork of [stephan-james / LibreWidget](https://github.com/stephan-james/LibreWidget). Thank you for creating and sharing this app.
 
@@ -21,7 +21,7 @@ So you have to build your own local application.
 - remove value if too old
 
 ## Testflight
-I made a Testflight build. If you email me at librewidget@cmdline.net I can invite you and you can test the app via Apple's Testflight App.
+I made a Testflight build. To try it out, install the App Testflight from the App Store and click on this link: [LibreWidget Testflight](https://testflight.apple.com/join/pGz2B7O7). Please provide feedback at librewidget@cmdline.net. Note that this is experimental software and I am doing this as a hobby out of personal interest (and I want my readings on the lock screen as well ;-)). Please forward to any xcoders you might know that have interest in this so maybe we can get some help with the development.
 
 ## LibreWidget Setup View
 ![LibreWidget Setup View](assets/LibreWidgetSetupView.png)  
