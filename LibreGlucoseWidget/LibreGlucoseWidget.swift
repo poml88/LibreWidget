@@ -120,16 +120,26 @@ struct LibreGlucoseWidgetEntryView: View {
         case .systemSmall:
             ZStack {
                 color.0
-                VStack(alignment: .center, spacing: -6) {
+                VStack(alignment: .center, spacing: -10) {
                     Text(verbatim: direction)
                             .font(.system(size: 48, weight: .heavy, design: .monospaced))
                             .foregroundColor(color.1)
                     Text(verbatim: glucose)
                             .font(.system(size: 52, weight: .heavy))
                             .foregroundColor(color.1)
+                    Text(Date(), style: .timer)
+                    //Text(verbatim: " ")
+                            .font(.system(size: 20, weight: .heavy))
+                            .foregroundColor(color.1)
+                            //.colorInvert()
+                            .multilineTextAlignment(.center)
+                            .monospacedDigit()
+                            .padding(4)
+                            //.frame(width: 10)
                 }
             }
                     .widgetBackground(backgroundView: Color.clear)
+        
         case .accessoryCircular:
             ZStack(alignment: .center) {
                 if #available(iOSApplicationExtension 17.0, *) {
@@ -137,16 +147,22 @@ struct LibreGlucoseWidgetEntryView: View {
                 } else {
                     Color(.white)
                 }
-                VStack(alignment: .center, spacing: -6) {
+             AccessoryWidgetBackground()
+             VStack(alignment: .center, spacing: -6) {
                     Text(verbatim: direction)
                             .font(.system(size: 20, weight: .heavy, design: .monospaced))
-                            .colorInvert()
+                            //.colorInvert()
+                            //.widgetAccentable()
                     Text(verbatim: glucose)
                             .font(.system(size: 20, weight: .heavy))
-                            .colorInvert()
-                    Text(verbatim: " ")
+                            //.colorInvert()
+                    Text(Date(), style: .relative)
+                    //Text(verbatim: " ")
                             .font(.system(size: 10, weight: .heavy))
-                            .colorInvert()
+                            //.colorInvert()
+                            .multilineTextAlignment(.center)
+                            .monospacedDigit()
+                            .padding(4)
                 }
             }
                     .widgetBackground(backgroundView: EmptyView())
@@ -193,6 +209,7 @@ struct LibreGlucoseWidget: Widget {
                 intent: ConfigurationIntent.self,
                 provider: Provider()) { entry in
             LibreGlucoseWidgetEntryView(entry: entry)
+                 // .unredacted()
         }
                 .supportedFamilies([.accessoryCircular, .systemSmall] +
                         (DEMO ? [.systemExtraLarge, .systemLarge, .systemMedium] : []))
